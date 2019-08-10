@@ -2,7 +2,7 @@
 function checkAB(str) {
     // Dilakukan pengecekan kepada string yang masuk,
     // dicek, adakah b yang berjarak 3 karakter dari a, 'axxxb'
-    // karakter ' ' sebagai 1 karakter juga...
+    // karakter ' ' dianggap sebagai 1 karakter juga...
     for(var i = 0; i < str.length; i++){
         if(str[i] == 'a' && str[i+4] == 'b'){
             return true
