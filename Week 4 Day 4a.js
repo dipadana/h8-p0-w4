@@ -28,4 +28,6 @@ changeMe([['Christ', 'Evans', 'Male', 1982], ['Robert', 'Downey', 'Male']]);
   //   lastName: 'Downey',
   //   gender: 'Male',
   //   age: 'Invalid Birth Year' }
-  changeMe([]); // ""
+  console.log(changeMe([])); // "" ( undefined same as "" )
+
+  // Refrence : https://codeburst.io/javascript-null-vs-undefined-20f955215a2
