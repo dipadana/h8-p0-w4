@@ -5,7 +5,7 @@ function tukarBesarKecil(kalimat) {
 
     // Dilakukan pengecekan pada semua huruf,
     // jika huruf tersebut besar, maka dia dikecilkan,
-    // dan jik a huruf kecil, maka di besarkan,
+    // dan jika huruf kecil, maka di besarkan,
     // semua hasil perubahan dimasukkan kedalam string penampung tadi.
     for(var i = 0; i < kalimat.length; i++){
         if(kalimat[i] == kalimat[i].toUpperCase()){
