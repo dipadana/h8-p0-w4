@@ -101,12 +101,3 @@ console.log(countProfit([{name: 'Windi', product: 'Sepatu Naiki', amount: 5}]));
   //     totalProfit: 0 } ]
 
   console.log(countProfit([])); //[]
-
-// Protoype Fungsi
- // function calculate (amountTemp, buyersAmounts, shoppersName, customerName, profit, price, amount){
-    //     if(amountTemp >= buyersAmounts){
-    //         amountTemp -= buyersAmounts;
-    //         shoppersName.push(customerName);
-    //         profit = price*(amount - amountTemp);
-    //     }
-    // }
