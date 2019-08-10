@@ -21,10 +21,11 @@ function digitPerkalianMinimum(num) {
         return temp2.length;
     }
 
-    // Jika banyak array nya adalah ganjil, otomatis, dia adalah bilangan,
-    // pangkat 2 dari angka yang ditengah, maka langsung saja return 2
+    // Jika banyak array nya adalah ganjil, otomatis, dia adalah bilangan pangkat 2 dari angka yang ditengah, 
+    // maka langsung saja return digit angka ditengah kali 2
     else{
-        return 2;
+        temp2 += temp[Math.floor(temp.length/2)]
+        return temp2.length*2;
     }
 }
 
@@ -34,3 +35,4 @@ function digitPerkalianMinimum(num) {
   console.log(digitPerkalianMinimum(20)); // 2
   console.log(digitPerkalianMinimum(179)); // 4
   console.log(digitPerkalianMinimum(1)); // 2
+  console.log(digitPerkalianMinimum(121)); // 4
